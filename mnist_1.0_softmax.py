@@ -118,6 +118,6 @@ datavis.animate(training_step, iterations=2000+1, train_data_update_freq=10, tes
 # to disable the visualisation use the following line instead of the datavis.animate line
 # for i in range(2000+1): training_step(i, i % 50 == 0, i % 10 == 0)
 
-print("max test accuracy: " + str(datavis.get_max_test_accuracy()))
+# print("max test accuracy: " + str(datavis.get_max_test_accuracy()))
 
 # final max test accuracy = 0.9268 (10K iterations). Accuracy should peak above 0.92 in the first 2000 iterations.
